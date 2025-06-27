@@ -10,6 +10,7 @@ This project is aimed at demonstrating hands-on skills in building, analyzing, a
 
 Each strategy has its own standalone GitHub repository. This portfolio acts as the central directory pointing to all those strategy repos.
 
+<<<<<<< HEAD
 | Strategy | Description | Asset Class | Link |
 |----------|-------------|-------------|------|
 | 🧪 Nifty Intraday Strangle | Sell CE + PE at ₹20 premium, with SL & EOD exit | Derivatives (India) | [nifty-options-strategy-backtest](https://github.com/adas-quant/nifty-options-strategy-backtest) |
@@ -17,6 +18,8 @@ Each strategy has its own standalone GitHub repository. This portfolio acts as t
 | 🔄 Nifty Mean Reversion *(Coming Soon)* | Reversion strategy based on daily OHLC volatility bands | Index Futures | _TBD_ |
 | 💹 BTC Trend Strategy *(Planned)* | Momentum-based long/short model on Bitcoin | Crypto | _TBD_ |
 | 🌍 Multi-asset Pairs Trading *(Planned)* | Statistical arbitrage between correlated assets | Global Equities | _TBD_ |
+=======
+>>>>>>> 9441d1d (Updated .gitignore and README with new strategy info)
 
 ---
 
