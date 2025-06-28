@@ -1,12 +1,25 @@
 # 📊 Quantfolio: A Portfolio of Quantitative Trading Strategies
 
+![GitHub last commit](https://img.shields.io/github/last-commit/adas-quant/quantfolio)
+![GitHub repo size](https://img.shields.io/github/repo-size/adas-quant/quantfolio)
+![GitHub license](https://img.shields.io/github/license/adas-quant/quantfolio)
+
 Welcome to **Quantfolio** — a curated collection of algorithmic and quantitative trading strategies developed using Python, with real-market backtests and visual performance analytics.
 
 This project is aimed at demonstrating hands-on skills in building, analyzing, and deploying strategies across various asset classes.
 
+
+## 🗂 Table of Contents
+
+- [Strategies](#-strategies)
+- [Features](#-features)
+- [Requirements](#-requirements)
+- [Author](#-author)
+- [Note](#-note)
+
 ---
 
-## 📁 Repository Structure
+## 🧪 Strategies
 
 Each strategy has its own standalone GitHub repository. This portfolio acts as the central directory pointing to all those strategy repos.
 
