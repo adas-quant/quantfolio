@@ -15,7 +15,7 @@ Each strategy has its own standalone GitHub repository. This portfolio acts as t
 |----------|-------------|-------------|------|
 | 🧪 Nifty Intraday Strangle | Sell CE + PE at ₹20 premium, with SL & EOD exit | Derivatives (India) | [nifty-options-strategy-backtest](./nifty-options-strategy-backtest) |
 | 📆 Nifty Positional Strangle *(In Progress)* | Delta-neutral weekly strangles with daywise entry, SL, and expiry logic | Derivatives (India) | [nifty-positional-strangle](./nifty-positional-strangle) |
-| 🔄 Nifty Mean Reversion *(Coming Soon)* | Reversion strategy based on daily OHLC volatility bands | Index Futures | _TBD_ |
+| 🔄 Nifty Mean Reversion | 6 variations tested using Bollinger Bands, RSI, and SMA crossovers | Index (India) | [nifty-mean-reversion](./nifty-mean-reversion) |
 | 💹 BTC Trend Strategy *(Planned)* | Momentum-based long/short model on Bitcoin | Crypto | _TBD_ |
 | 🌍 Multi-asset Pairs Trading *(Planned)* | Statistical arbitrage between correlated assets | Global Equities | _TBD_ |
 =======
