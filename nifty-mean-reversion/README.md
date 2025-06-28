@@ -21,6 +21,17 @@ To test the **effectiveness of mean reversion strategies** in the Indian market 
 
 ---
 
+---
+
+## 📚 Table of Contents
+
+- [Data Source](#-data-source)
+- [Objective](#-objective)
+- [Strategies Tested](#-strategies-tested)
+- [Key Insights](#-key-insights)
+- [Conclusion](#-conclusion)
+
+
 ## 🧪 Strategies Tested
 
 ### 🔹 1. Bollinger Bands Mean Reversion (`bollinger_band_backtest.py`)
