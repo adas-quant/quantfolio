@@ -1,16 +1,36 @@
-# 📈 Option Pricing Models
+# 🧠 Option Pricing Models
 
-This module demonstrates option pricing using various theoretical models — both for learning and prototyping quant infrastructure.
+This module showcases how foundational option pricing models work under the hood, with interactive visualizations and QuantLib-powered simulations.
 
-### 📌 Included Notebooks:
-- `quantlib_black_scholes.ipynb`: Price European call/put options using QuantLib’s Black-Scholes engine.
-- `monte_carlo_pricing.ipynb`: Estimate option price via Monte Carlo simulation of terminal prices.
-- `binomial_tree_pricing.ipynb`: Price options using CRR/Jarrow-Rudd binomial tree models.
+We start with classic Black-Scholes pricing, add Monte Carlo techniques, and explore extensions like Greeks estimation and binomial trees.
 
-### 🧠 Concepts Covered:
-- Black-Scholes Merton framework
-- Greeks (Delta, Gamma, Vega) estimation
-- Risk-neutral valuation
-- Path-based vs closed-form pricing
+📘 **[Full theory + implementation notes →](./docs/black-scholes-pricing.md)**
 
-> 📚 Goal: Build foundational understanding of pricing, while getting hands-on with QuantLib, NumPy, and visualization tools.
+---
+
+## 📚 Notebooks
+
+| Notebook | Description |
+|----------|-------------|
+| [`quantlib_black_scholes.ipynb`](./quantlib_black_scholes.ipynb) | Interactive pricing of European options using Black-Scholes formula (QuantLib + ipywidgets) |
+| [`monte_carlo_pricing.ipynb`](./monte_carlo_pricing.ipynb) | *(Planned)* Monte Carlo simulation of option payoffs |
+| [`binomial_tree_pricing.ipynb`](./binomial_tree_pricing.ipynb) | *(Planned)* Pricing via binomial lattice for European/American options |
+
+---
+
+## 🔧 Dependencies
+
+- `QuantLib`
+- `ipywidgets`
+- `numpy`, `matplotlib`
+- Jupyter Lab or VSCode
+
+---
+
+## 🧪 Coming Soon
+
+We'll extend these notebooks with **real-world pricing simulation**, volatility surface exploration, and comparative pricing across models.
+
+Stay tuned!
+
+---

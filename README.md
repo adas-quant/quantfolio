@@ -4,12 +4,16 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/adas-quant/quantfolio)
 ![GitHub license](https://img.shields.io/github/license/adas-quant/quantfolio)
 
-Welcome to **Quantfolio** — a curated collection of algorithmic trading strategies and quantitative finance notebooks developed using Python.
+Welcome to **Quantfolio** — A curated collection of backtested strategies, pricing models, and analytics tools for derivative and systematic trading.
 
-This project demonstrates both:
-- 📈 Live-market backtested strategies across Indian F&O and equities
-- 🧪 Quant research tools — pricing models, stress testing, and trade analytics
 
+The repository is structured into:
+- 📈 Strategy modules that implement and backtest NIFTY and BTC-based strategies using Python and pandas
+- 🧠 Quant research notebooks to explore option pricing (Black-Scholes, Binomial Trees), Monte Carlo simulations, and Greeks
+- ⚠️ Scenario analysis tools to evaluate strategy behavior under market stress
+- 📊 Trade analytics utilities to measure strategy performance with PnL, Sharpe, drawdowns, and more
+
+This project is under active development, and more asset classes, models, and tools will be added iteratively.
 ---
 
 ## 🗂 Table of Contents
@@ -41,12 +45,11 @@ Each strategy has its own standalone GitHub repository. This portfolio acts as t
 
 Notebooks and tools that demonstrate option pricing, stress-test strategies under market shocks, and analyze trade performance.
 
-| Folder | Description |
-|--------|-------------|
-| `quant-projects/option-pricing/` | Black-Scholes, Binomial Trees, and Monte Carlo pricing models using QuantLib & NumPy |
-| `quant-projects/scenario_analysis/` | Stress-test option strategies under volatility spikes, directional crashes, regime shifts, and more |
-| `quant-projects/trade_analytics/` | Analyze trade logs with MTM, PnL, Sharpe, drawdown, win/loss histograms & strategy filters |
-
+| Module | Description | Link |
+|--------|-------------|------|
+| 💰 Option Pricing Models *(In Progress)* | Black-Scholes, Binomial Trees, and Monte Carlo simulations using QuantLib & NumPy | [option-pricing](./quant-projects/option-pricing) |
+| ⚠️ Scenario Analysis *(Planned)* | Stress-test option strategies under volatility spikes, directional crashes, and regime shifts | [scenario_analysis](./quant-projects/scenario_analysis) |
+| 📊 Trade Analytics *(Planned)* | Analyze trade logs for MTM, PnL, Sharpe, drawdowns, win/loss ratios, and filters | [trade_analytics](./quant-projects/trade_analytics) |
 
 ---
 
@@ -65,7 +68,7 @@ Each sub-repo has its own `requirements.txt`. Most projects use:
 
 - Python 3.10+
 - Pandas, Matplotlib, NumPy, Seaborn
-- QuantLib (`quantlib-python`)
+- QuantLib (`quantlib-python`), scipy
 - ipywidgets (for interactive pricing demos)
 - Jupyter Lab / VS Code / PyCharm
 
