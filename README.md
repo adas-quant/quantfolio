@@ -39,13 +39,14 @@ Each strategy has its own standalone GitHub repository. This portfolio acts as t
 
 ## 🧠 Quant Research & Risk Demos
 
-Notebooks that simulate pricing, market stress scenarios, and trade analytics — using QuantLib, Monte Carlo simulation, and synthetic data.
+Notebooks and tools that demonstrate option pricing, stress-test strategies under market shocks, and analyze trade performance.
 
 | Folder | Description |
 |--------|-------------|
-| `quant-projects/quantlib_option_pricing/` | Black-Scholes pricing, Monte Carlo simulation, and Greeks via QuantLib |
-| `quant-projects/scenario_analysis_volatility_spike/` | Reprice short options under volatility spike (e.g., COVID crash IV surge) |
-| `quant-projects/trade_journal_tracker/` | Analyze trade logs: MTM, PnL, Sharpe, drawdown, win/loss histograms |
+| `quant-projects/option-pricing/` | Black-Scholes, Binomial Trees, and Monte Carlo pricing models using QuantLib & NumPy |
+| `quant-projects/scenario_analysis/` | Stress-test option strategies under volatility spikes, directional crashes, regime shifts, and more |
+| `quant-projects/trade_analytics/` | Analyze trade logs with MTM, PnL, Sharpe, drawdown, win/loss histograms & strategy filters |
+
 
 ---
 
