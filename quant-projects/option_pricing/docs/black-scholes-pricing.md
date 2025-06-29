@@ -90,4 +90,4 @@ The model is **non-path dependent**, so closed-form pricing is efficient.
 
 ---
 
-*Last updated: {{ADD_DATE}} by Arindam Das*
+*Last updated: 29th June 2025 by Arindam Das*
