@@ -1,0 +1,35 @@
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Logs
+logs/
+*.log
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Data files (keep only small demo samples, ignore large real datasets)
+*.parquet
+*.csv
+*.json
+
+# But keep the demo data we committed
+!data/raw/raw_tweets.json
+!data/processed/processed_tweets.parquet
+!data/processed/processed_tweets.csv
+
+# Artifacts (plots, images, etc.)
+artifacts/
+!artifacts/market_signal_visualization.png

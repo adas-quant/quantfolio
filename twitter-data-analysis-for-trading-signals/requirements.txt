@@ -1,0 +1,8 @@
+snscrape
+pandas
+pyarrow
+scikit-learn
+matplotlib
+seaborn
+asyncio
+twscrape
